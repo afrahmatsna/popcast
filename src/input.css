@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+@apply text-xl hover:text-mango transition duration-150 ease-in-out
+}
+
+.section{
+   @apply p-8 sm:p-16 lg:px-30 lg:pt-[98px] lg:pb-[70]
+}
+
